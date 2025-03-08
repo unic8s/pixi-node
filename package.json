@@ -6,7 +6,7 @@
   "bugs": "https://github.com/pixijs/node/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unic8s/pixi-node.git"
+    "url": "git+https://github.com/unic8s/pixi-node.git"
   },
   "license": "MIT",
   "author": "PixiJS Team",
