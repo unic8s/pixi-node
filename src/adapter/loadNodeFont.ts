@@ -13,6 +13,7 @@ const validFonts = ['.woff', '.woff2', '.ttf', '.otf'];
 /** loads a font from a file */
 export const loadNodeFont = {
     extension: ExtensionType.LoadParser,
+    name: "loadFont",
 
     test(url: string): boolean
     {

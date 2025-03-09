@@ -21,6 +21,7 @@ function isSupportedDataURL(url: string): boolean
 /** loads our textures into a node canvas */
 export const loadNodeBase64 = {
     extension: ExtensionType.LoadParser,
+    name: "loadBase64",
 
     test(url: string): boolean
     {
